@@ -15,6 +15,13 @@ import tests.testng.Tests;
 import java.time.Duration;
 
 public class AssignLogin extends Tests {
+    /* /* go to "https://practicetestautomation.com/practice-test-login/"
+enter username - "student"
+enter password - "incorrectPassword"
+and login
+SOFT ASSERT the error message shown
+SOFT ASSERT the error message is "Your password is invalid!"
+*/
     @Test
     public void test(){
         bot.navigate("https://practicetestautomation.com/practice-test-login/");
