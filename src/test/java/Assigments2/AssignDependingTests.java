@@ -3,7 +3,7 @@ package Assigments2;
 import org.testng.annotations.Test;
 import tests.testng.Tests;
 
-public class DependingTests extends Tests {
+public class AssignDependingTests extends Tests {
     /*  /*
     Create tests that depend on each other
     Create beforeClass and set up settings.

@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class OpenCartTest {
+public class AssignOpenCartTest {
     /* //Open the site: http://opencart.abstracta.us/index.php?route=account/login
 //Login with that credentials
 //Email: clarusway@gmail.com

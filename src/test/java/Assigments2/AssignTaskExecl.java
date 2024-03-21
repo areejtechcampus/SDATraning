@@ -1,6 +1,5 @@
 package Assigments2;
 import org.apache.poi.ss.usermodel.*;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -9,7 +8,7 @@ import tests.testng.Tests;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class TaskExecl extends Tests {
+public class AssignTaskExecl extends Tests  {
     /*
 Go to https://testpages.eviltester.com/styled/apps/notes/simplenotes.html
 Add 10 notes using data provider with excel
